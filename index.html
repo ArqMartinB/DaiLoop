@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/DaiFavicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaiLoop</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- FONT ALATA -->
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/Dailogo.png" alt="Dai logo" class="nav-logo">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#">DaiLoop</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">ARG</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-share-alt"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Showcase-->
+        <header class="showcase">
+            <h2>Bienvenido al LooP ARS-DAI-USD</h2>
+            <p>Con esta Web podrás calcular el rendimiento que obtendras al realizar esta operación de Loop.</p>
+            <a href="#calculadora" class="btn">Empezar <i class="fas fa-calculator"></i></a>
+        </header>
+
+        <!--Calculadora-->
+        <div>
+        <section class="calculadora" id="calculadora"> 
+            <div class="TextoCalculadora"> 
+                <script type="text/javascript" src="./js/main.js"></script>
+                <h2>Ingesa el precio en pesos ARG al que vas a vender tus Dolares <br><input type="text" placeholder="$" id="blue"><br><br></h2>
+                <h2>Cuantos Dolares vas a vender? <br><input type="text" placeholder="usd" id="venta"><br><br></h2>
+                <input type="button" value="Calcular" onclick="inversion()"><br><br>
+                <h2>Vas a invertir <br> <input type="text" placeholder="$" id="inv"><br><br></h2>
+                <h2>Introduce la cotización DAI para la Compra en pesos Arg <br> <input type="text" placeholder="$" id="daiarg"><br><br></h2>
+                <h2>Introduce la cotización DAI para la Venta en Dolares <br><input type="text" placeholder="usd" id="daiusd"><br><br></h2>
+                <input type="button" value="Calcular" onclick="resultado(), cambio()"><br><br>
+                <h2>Obtendrás USD <input type="text" id="res"><br><br></h2>
+                <h2>A un cambio de $ <input type="text" id="camb"><br><br></h2>
+
+            </div>
+
+        </section>
+
+        <section class="social">
+            <p>Redes</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+         </section>
+        </div>
+
+    </div>
+
+   <footer class="footer">
+    <h3>DaiLoop © 2020 | Disclaimer: La correcta utilización de esta herramineta queda a responsabilidad de cada usuario.</h3>
+   </footer>
+    
+</body>
+</html>
