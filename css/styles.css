@@ -128,7 +128,7 @@ section.calculadora {
 }
 
 .calculadora .TextoCalculadora input {
-    width: 20%;
+    width: 40%;
 }
 
 .calculadora .TextoCalculadora input[type="text"] {
