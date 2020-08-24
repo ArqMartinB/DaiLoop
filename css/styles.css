@@ -133,6 +133,7 @@ section.calculadora {
 
 .calculadora .TextoCalculadora input[type="text"] {
     border: none;
+    width: 80px;
     border-bottom: 1px solid #ffffff;
     background: transparent;
     outline: none;
