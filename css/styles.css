@@ -61,6 +61,12 @@ ul {
     margin-left: 20px;
 }
 
+/* Nav Right */
+.nav-menu-right .contacto:hover {
+    color: orange;
+} 
+
+
 /*Showcase*/
 .showcase {
    width: 100%;
